@@ -1,0 +1,30 @@
+.env
+.env.local
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Local notebooks / scratch
+.ipynb_checkpoints/
+Untitled*.ipynb
+
+# Ad-hoc exports (fixtures live under samples/)
+/*.csv
+
+# Browser "Save Page Complete" asset dirs (not used by parsers)
+samples/**/*_files/
+
+# Optional large captures — keep locally (see docs/ui-capture-requirements.md)
+samples/zalando_search.html
+samples/aliexpress_search*.html
+samples/linkedin_detail_example.html
+samples/*fromDevTools.html
+samples/temu _ Ad Library*.html
